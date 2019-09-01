@@ -1,9 +1,9 @@
 package cache
 
 type Stat struct {
-	Count     int64
-	KeySize   int64
-	ValueSize int64
+	Count     int64 `json:"count"`
+	KeySize   int64 `json:"key_size"`
+	ValueSize int64 `json:"value_size"`
 }
 
 func (s *Stat) add(k string, v []byte) {

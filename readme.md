@@ -28,6 +28,6 @@ $ curl -s 127.0.0.1:12345/status
 $ curl -s 127.0.0.1:12345/cache/testkey -XDELETE
 
 $ curl -s 127.0.0.1:12345/status
-{"Count":0,"KeySize":0,"ValueSize":0}
+{"count":0,"key_size":0,"value_size":0}
 
 </code></pre>
